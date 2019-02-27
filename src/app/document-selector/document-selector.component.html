@@ -1,0 +1,17 @@
+<div class="file-chooser">
+  <label for="wopiSrc">Doc URL:</label>
+  <input id="wopiSrc" type="text" [(ngModel)]="selectedDocumentSourceUrl" />
+
+  <label for="accessToken">Access Token:</label>
+  <input id="accessToken" type="text" [(ngModel)]="enteredAccessToken" />
+
+  <select [(ngModel)]="selectedOfficeProduct">
+    <option *ngFor="let product of officeProducts" value="{{ product }}">{{
+      product
+    }}</option>
+  </select>
+
+  <button (click)="selectDocument()">
+    Choose Document
+  </button>
+</div>

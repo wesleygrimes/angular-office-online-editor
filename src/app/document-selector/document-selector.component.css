@@ -1,0 +1,17 @@
+.file-chooser input {
+  padding: 5px;
+  margin-right: 15px;
+}
+
+.file-chooser select {
+  padding: 5px;
+  margin-right: 15px;
+}
+
+.file-chooser {
+  margin-top: 25px;
+  margin-left: 25px;
+  display: grid;
+  grid-template-columns: 75px 30% 125px 30% 125px 150px;
+  justify-content: start;
+}

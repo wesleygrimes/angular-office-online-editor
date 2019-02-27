@@ -1,0 +1,12 @@
+<form
+  #officeForm
+  id="officeForm"
+  name="officeForm"
+  target="officeFrame"
+  method="post"
+>
+  <input name="access_token" [value]="document.accessToken" type="hidden" />
+  <input name="access_token_ttl" [value]="accessTokenTTL" type="hidden" />
+</form>
+
+<span #officeFrameholder id="officeFrameholder"></span>
