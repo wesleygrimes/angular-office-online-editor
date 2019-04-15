@@ -1,3 +1,5 @@
+<a href="https://ultimatecourses.com/topic/angular/ref/wes.grimes/" title="Ultimate Courses"><img src="https://ultimatecourses.com/assets/img/banners/ultimate-angular-github.svg" alt="Ultimate Courses" /></a>
+
 # Office Editor POC
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
